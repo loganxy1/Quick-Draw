@@ -1,0 +1,43 @@
+#label{
+    font-size:25px;
+    padding:10px;
+}
+
+#confidence{
+    font-size:25px;
+    padding:10px;
+}
+
+body{
+    background-color:black;
+    color:red;
+}
+
+h1{
+    background-color:lightgrey;
+    font-weight:bold;
+}
+
+.btn-info{
+    float:right;
+    margin:20px;
+}
+
+.modal-title{
+    font-size:30px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius:20px;
+    animation-name:example;
+    animation-duration:4s;
+    margin-bottom:-1000px;
+    margin-left:625px;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px white};
+    to{box-shadow: 1px 1px 38px red};
+}
